@@ -4,6 +4,7 @@ Lukas Möbius <lukas.moebius@htw-dresden.de>
 :toc: 
 :toc-title: Inhaltsverzeichnis
 // Platzhalter für weitere Dokumenten-Attribute 
+:source-highlighter: highlightjs
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
@@ -54,4 +55,13 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 === Software Engeneering
 
-**S**__o__ftw__a__r__e__ **__E__**ng__ee__``ring``
+* **S**__o__ftw__a__r__e__ **__E__**ng__ee__``ring``
+
+=== Quellcode
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World\n");
+    return 0;
+}
