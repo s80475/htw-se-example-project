@@ -3,8 +3,13 @@ Lukas Möbius <lukas.moebius@htw-dresden.de>
 1.0, 18.10.2020 
 :toc: 
 :toc-title: Inhaltsverzeichnis
-// Platzhalter für weitere Dokumenten-Attribute 
+
 :source-highlighter: highlightjs
+:imagesdir: images
+:xrefstyle: full | short | basic
+// Platzhalter für weitere Dokumenten-Attribute 
+
+
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
@@ -13,7 +18,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
 
-=== Listen
+=== Listen 
 // Mit .<Name> können abschnitte mit einem Titel benannt werden. 
 .Beispiel: unsortierte Liste 
 * Item A
@@ -65,3 +70,12 @@ int main(int argc, char* argv[])
     printf("Hello, World\n");
     return 0;
 }
+
+=== Bilder 
+images::sreenshot.jpg[sreenshot]
+
+=== Verweise
+* <<Kennenlernen der Syntax>> 
+* <<Tabellen und Textformatierung>>
+* <<Quellcode>>
+* <<Bilder>>
