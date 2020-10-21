@@ -36,7 +36,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |fetter Text
 
 |_italic_
-|\_italic
+|\_italic_
 |kursiver Text
 
 |`monospace`
@@ -48,5 +48,10 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |Text mit kombinierter Formatierung
 
 |**bold**&_italic_
-|\**bold**&_italic_
+|\\**bold**&_italic_
 |Text mit Formatierung innerhalb eines Wortes
+
+
+=== Software Engeneering
+
+*S*_o_ftw_a_r_e_ *_E_*ng_ee_`ring`
