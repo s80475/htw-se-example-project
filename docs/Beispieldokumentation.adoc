@@ -63,6 +63,8 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 * **S**__o__ftw__a__r__e__ **__E__**ng__ee__``ring``
 
 === Quellcode
+[source,go, linenmums]
+----
 #include <stdio.h>
 
 int main(int argc, char* argv[])
@@ -70,9 +72,9 @@ int main(int argc, char* argv[])
     printf("Hello, World\n");
     return 0;
 }
-
+----
 === Bilder 
-images::sreenshot.jpg[sreenshot]
+image::screenshot.jpg[600,500]
 
 === Verweise
 * <<Kennenlernen der Syntax>> 
