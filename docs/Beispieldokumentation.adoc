@@ -31,6 +31,22 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |===
 |Formatierung |Syntax |Beschreibung 
 
-|bold
-|\*bold*\
+|*bold*
+|\*bold*
 |fetter Text
+
+|_italic_
+|\_italic
+|kursiver Text
+
+|`monospace`
+|\`monospace`
+|Text mit Fester Laufweite
+
+|*_bold&italic_*
+|\*_bold&italic_*
+|Text mit kombinierter Formatierung
+
+|**bold**&_italic_
+|\**bold**&_italic_
+|Text mit Formatierung innerhalb eines Wortes
