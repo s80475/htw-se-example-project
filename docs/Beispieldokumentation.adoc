@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
 }
 ----
 === Bilder 
-image::screenshot.jpg[]
+image::screenshot.jpg[Bilder]
 
 === Verweise
 * <<Kennenlernen der Syntax>> 
