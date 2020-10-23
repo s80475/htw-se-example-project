@@ -3,7 +3,7 @@ Lukas Möbius <lukas.moebius@htw-dresden.de>
 1.0, 18.10.2020 
 :toc: 
 :toc-title: Inhaltsverzeichnis
-
+:source-highlighter: rouge
 :source-highlighter: highlightjs
 :imagesdir: images
 :xrefstyle: full | short | basic
