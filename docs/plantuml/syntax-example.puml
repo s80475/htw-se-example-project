@@ -1,0 +1,14 @@
+@startuml example
+class Graphic
+interface Shape <<Interface>> {
+  draw()
+}
+class Circle
+class Triangle
+class Square
+
+Graphic -> Shape
+Shape <|.. Circle
+Shape <|.. Triangle
+Shape <|.. Square
+@enduml

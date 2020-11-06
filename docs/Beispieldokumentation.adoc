@@ -86,19 +86,8 @@ image::screenshot.jpg[Bilder,600]
 * <<Bilder>>
 
 .Klassendiagramm mit PlantUML 
-[#diagram_syntax-example1] 
-[plantuml, "{diagramsdir}/syntax-example1", svg]  
+[#diagram_syntax-example2]
+[plantuml, "{diagramsdir}/syntax-example2", svg]
 ....
-class Graphic 
-interface Shape <<Interface>> {
-  draw()
-}
-class Circle
-class Triangle
-class Square
-
-Graphic -> Shape
-Shape <|.. Circle
-Shape <|.. Triangle
-Shape <|.. Square
+include::{plantumlsdir}/syntax-example.puml[]
 ....
