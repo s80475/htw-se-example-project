@@ -1,0 +1,17 @@
+@startuml example-activity-diagram
+start
+
+:Initialization;
+note right: The first <del>Avenger</del> Activity
+
+if (Some Test) then (yes)
+  :Some Activity;
+  :Another Activity;
+else (no)
+  :Something else;
+endif
+
+:Final Activity;
+
+stop
+@enduml
