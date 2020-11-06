@@ -6,6 +6,9 @@ Lukas Möbius <lukas.moebius@htw-dresden.de>
 :source-highlighter: rouge
 :source-highlighter: highlightjs
 :imagesdir: images
+:diagramsdir: diagrams 
+:plantumlsdir: plantuml 
+
 :xrefstyle: full | short | basic
 // Platzhalter für weitere Dokumenten-Attribute 
 
@@ -81,3 +84,21 @@ image::screenshot.jpg[Bilder,600]
 * <<Tabellen und Textformatierung>>
 * <<Quellcode>>
 * <<Bilder>>
+
+.Klassendiagramm mit PlantUML 
+[#diagram_syntax-example1] 
+[plantuml, "{diagramsdir}/syntax-example1", svg]  
+....
+class Graphic 
+interface Shape <<Interface>> {
+  draw()
+}
+class Circle
+class Triangle
+class Square
+
+Graphic -> Shape
+Shape <|.. Circle
+Shape <|.. Triangle
+Shape <|.. Square
+....
