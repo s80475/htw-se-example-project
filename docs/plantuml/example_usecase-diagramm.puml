@@ -1,0 +1,22 @@
+@startuml example-usecase-diagram
+left to right direction
+
+actor Nutzer
+actor Service
+
+rectangle "eRoller App" {
+  (UC01\nRoller finden) as (uc01)
+  (UC02\nRoller freischalten) as (uc02)
+  (UC03\nRoller abstellen) as (uc03)
+  (UC04\nRoller melden) as (uc04)
+  (UC05\nAnmeldedaten erfassen) as (uc05)
+  (UC06\nRoller verwalten ...) as (uc06)
+}
+
+Nutzer -- (uc01)
+Nutzer -- (uc02)
+Nutzer -- (uc03)
+Nutzer -- (uc04)
+(uc02) .down.> (uc05) : include
+Service -- (uc06)
+@enduml
