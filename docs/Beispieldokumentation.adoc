@@ -121,5 +121,3 @@ include::{plantumlsdir}/example_c4-model-diagram.puml[]
 ....
 
 === neu änderungen 
-
-=== aufgabe 1.4.2 revert 
