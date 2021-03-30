@@ -5,6 +5,8 @@
 <insert_bugfix_here>
 Fehler auf seite so und so 
 
+* Die fehler wurden hoffentlich alle behoben :)
+
 == Feature 1
 
 <insert_feature_here>
