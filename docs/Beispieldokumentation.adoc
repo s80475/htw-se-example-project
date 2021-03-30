@@ -121,4 +121,6 @@ include::{plantumlsdir}/example_c4-model-diagram.puml[]
 ....
 
 === neu änderungen 
-wegspeichern der änderung
+* wegspeichern der änderung
+* änderungen Verwerfen 
+* Lokale änderung
