@@ -121,10 +121,7 @@ include::{plantumlsdir}/example_c4-model-diagram.puml[]
 ....
 
 === neu änderungen 
-<<<<<<< HEAD
 * wegspeichern der änderung
 * änderungen Verwerfen 
 * Lokale änderung
-=======
 
->>>>>>> 446ef7fc446139b12c962d319738b9009aaba4d2
