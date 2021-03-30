@@ -8,6 +8,7 @@ Fehler auf seite so und so
 == Feature 1
 
 <insert_feature_here>
+Das ist neuer Text und der erste Commit 
 
 == Feature 2
 
