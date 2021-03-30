@@ -1,0 +1,14 @@
+= Title
+
+== Beschreibung
+
+<insert_bugfix_here>
+Fehler auf seite so und so 
+
+== Feature 1
+
+<insert_feature_here>
+
+== Feature 2
+
+<insert_feature_here>
