@@ -11,8 +11,7 @@ Fehler auf seite so und so
 
 * Das ist neuer Text und der erste Commit 
 * Das ist die zweite änderung
-
-
+* Weiter Text, welcher zum master hinzukommt
 == Feature 2
 
 <insert_feature_here>
