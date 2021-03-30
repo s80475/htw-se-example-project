@@ -6,6 +6,8 @@
 Fehler auf seite so und so 
 
 * Die fehler wurden hoffentlich alle behoben :)
+* Hier den Fehler habe ich auch noch entedckt
+
 
 == Feature 1
 
